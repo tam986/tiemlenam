@@ -1,0 +1,524 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html{
+  font-family: "Poppins",sans-serif;
+}
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(././imgslide/3.jpg) no-repeat;
+  background-size:cover ;
+  background-position: center;
+}
+/* teen shop */
+#linetop{
+  display: inline-block;
+  width: 1519px;
+  height: 70px;
+  background-color: #93BEBF;
+  padding: 16px 0px;
+  line-height: 26px;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+        #linetop a{
+          text-decoration: none;
+          color: #000;
+          padding: 3px;
+          font-size: 30px;
+        }
+        #linetop p{
+          font-size: 16px;
+          color: grey;
+        }
+/* line top end */
+      #header {
+        display: flex;
+        width: 1520px;
+        height: auto;
+        background-color: #fff;
+    
+        z-index: 999;
+        justify-content: space-between; /* Đặt khoảng cách giữa hai phần tử con */
+        align-items: center;
+        top: 70px;
+        left: 0;
+        right: 0;
+        
+        
+      }
+/* tas header */
+
+      .task_header{
+        display: flex;
+        gap: 20px;
+        width: 55%;
+        height: auto;
+        left: 0;
+        align-items: center;
+      }
+      .header_right {
+        display: flex;
+        justify-content: flex-end; /* Đặt icon bên phải */
+        align-items: center;
+        width: 45%;
+        height: auto;
+        gap: 30px;
+        right: 0;
+      }
+
+/* img */
+                                .img_head {
+                                  display: block;
+                                  padding: 31px 0px 21px;
+                                  line-height: 26px;
+                                  margin-left: 20px;
+                                  width: 50%;
+                                  cursor: pointer;
+                                  margin-left: auto;
+                                  margin-right: auto;
+                                }
+                                .task_header a{
+                                
+                                  width: 20%;
+                                
+                                }
+                                
+
+/* list head */
+                                    #nav{
+                                      display: flex;
+                                      list-style-type: none;
+                                      gap: 20px;
+                                      font-size: 20px;
+                                    }
+                                    
+                                    #nav li{
+                                      position: relative;
+                                    }
+                                   
+
+                                    #nav li.listhead a{
+                                          color: #000;
+                                            text-decoration: none;
+                                            padding: 20px;
+                                        
+                                            
+                                  
+                                     }
+                                     #nav li.listhead:hover a{
+                                       color: #93BEBF;
+                                     }
+                                     
+                                     #nav li.list_tools a.tools{
+                                       color: #000;
+                                       text-decoration: none;
+                                     }
+                                     
+                                     #nav li.list_tools:hover a.tools{
+                                       color: #93BEBF;
+                                       
+                                     }
+                                     #nav li:hover .subnav{
+                                      display: block;
+                                      animation-delay: 2s;
+                                   
+                                     }
+                                    
+
+/* cha của list */
+                                     #nav .subnav{
+                                       list-style-type: none;
+                                       position: absolute;
+                                       box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+                                       border: 3px solid #fff;
+                                       border-radius: 10px;
+                                       display: none;
+                                       width: 140px;
+                                      
+                                     }
+                                      #nav .subnav a{
+                                         display: inline-block;
+                                         text-decoration: none;
+                                          color: #000;
+                                         background-color: #fff;
+                                         width: 135px;
+                                         /* margin-top:0px; */
+                                         border: 3px solid #fff;
+                                       border-radius: 10px;
+                                        
+                                        
+                                       }
+                                      
+                                      #nav .subnav li:hover a{
+                                        color: #93BEBF;
+                                        animation-delay: 2s;
+                                        
+                                       }
+/* header right */
+/* search head */
+form.icon_search input[type=text] {
+  padding: 12px;
+  font-size: 17px;
+  border: 1px solid #93BEBF;
+  float: left;
+  background: #93BEBF;
+  position: relative;
+  border-radius: 15px;
+  
+}
+
+/* Style the submit button */
+form.icon_search input[type=text] {
+  padding: 12px;
+  font-size: 17px;
+  border: 1px solid #7ca1a2;
+  float: left;
+  background: #fff;
+  position: relative;
+  border-radius: 15px;
+  margin-top: 4px;
+  outline: none;
+}
+
+/* Style the submit button */
+form.icon_search button {
+  float: left;
+  margin-top: 6.5px;
+  padding: 10px;
+  color: #7ca1a2;
+  font-size: 17px;
+  border:none;
+  outline: none;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  position: absolute;
+  border-radius: 15px;
+  margin-left: -40px;
+}
+
+form.icon_search button:hover {
+  background:#a9ddde;
+  color: #000;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+      
+/* icon head */
+      #icon_head {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+      
+      .iconhead {
+        padding: 31px 0px 21px;
+        line-height: 26px;
+        font-size: larger;
+        margin: 5px;
+      }
+      
+      .iconhead:hover {
+        color: #93BEBF;
+        cursor: pointer;
+      }
+      
+/* logi/sign in */
+      #acount {
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .dangnhap {
+        background-color: #fff;
+        border: 3px solid #93BEBF;
+        border-radius: 25px;
+        font-size: 17px;
+        margin: -20px -39px -56px 0px;
+        padding: 8px 16px;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+      }
+      .dangky {
+        background-color: #fff;
+        border: 3px solid #93BEBF;
+        border-radius: 24px;
+        font-size: 17px;
+        margin: -20px 10px 56px 0px;
+        padding: 8px 16px 8px 39px;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        text-transform: uppercase;
+     
+      }
+      .dangky:hover,
+      .dangnhap:hover {
+        background-color: #93BEBF;
+        color: #fff;
+      }
+      
+/* form */
+.wrapper{
+    width: 420px;
+    color:#fff;
+    background: transparent;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+
+}
+.wrapper h1{
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.wrapper .input_box{
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  position: relative;
+
+}
+.input_box input{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border: none;
+  outline: none ;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid rgba(255,255,255,.2);
+  padding: 20px 45px 20px 20px ;
+  border-radius: 40px;
+}
+.input_box input::placeholder{
+  color:#fff;
+}
+.input_box i{
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  font-size: 20px;
+  transition: translateY(-50%);
+
+}
+
+.wrapper .remember-forgot{
+  display: flex;
+  font-size: 14.5px;
+  margin: -15px 0 15px 0;
+  justify-content: center;
+}
+.remember-forgot label input{
+  accent-color: #fff;
+  margin-right: 3px;
+}
+.remember-forgot a{
+  color: #fff;
+  text-decoration: none;
+}
+.remember-forgot a:hover{text-decoration: underline;}
+.wrapper .btn{
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size:16px ;
+  font-weight: 600;
+  border-radius: 40px;
+  color: #333;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  text-transform: uppercase;
+}
+.wrapper .btn:hover{
+  color: #fff;
+  background-color: #93BEBF;
+}
+.wrapper .register-link{
+  margin-top: 20px;
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+  
+}
+.register-link p a{
+  color:#fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.register-link p a:hover{
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: #7ca1a2;
+
+}
+
+.tong {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Để padding không làm tăng kích thước */
+  
+}
+.tong .box1{
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 26px;
+  padding: 8px 16px;
+}
+.info h5{
+  font-weight: 500;
+  line-height: 22px;
+  margin: 0 0 19px;
+  text-transform: uppercase;
+}
+.info ul li{
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  text-align: left;
+  line-height: 26px;
+  margin: 0 0 13px;
+  list-style-type: none;
+  color: #fff;
+}
+
+.info a{
+  color: #fff;
+  text-decoration: none;
+}
+.info a:hover{
+  text-decoration: underline;
+}
+.footer_pr{
+  width: 258px;
+  height: 216px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  padding: 0 15px;
+  color: #fff;
+}
+.footer_pr h5{
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  margin: 0px 0px 19px;
+}
+.footer_pr ul{
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+}
+.footer_pr li{
+  list-style:none;
+}
+.contact{
+  width: 307px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+.contact-type input{
+  display: inline-block;
+  font-size: 15px;
+  line-height: 40px;
+  margin-top: 15px;
+  padding: 0px 57px 0px 15px;
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.contact-type i{
+ display:inline-block;
+ font-size: 15px;
+ line-height: 25px;
+ padding:8px 16px;
+ outline: none;
+ position: absolute;
+ margin-top: 15px;
+ margin-left: -47px;
+ color: #000;
+ border-radius: 10px;
+}
+.contact-type i:hover{
+  color: #7ca1a2;
+  cursor: pointer;
+}
+.contact p{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.463);
+}
+.contact span{
+  font-size: 18px;
+  margin-top: 15px;
+}
+.social {
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa biểu tượng mạng xã hội */
+  color: #fff;
+}
+.social i{
+  margin-top: 15px;
+  border: 3px solid #fff;
+  font-size: 30px;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+.tw{
+  color: #fff;
+}
+.fb{
+  color: #fff;
+}
+.ins{
+  color: #fff;
+}
+.yt{
+  color: #fff;
+}
+.tw:hover{
+  background-color:rgb(53, 70, 93);cursor: pointer;transform: scale(1.2);
+}
+.fb:hover{
+  background-color:rgb(59, 89, 152);cursor: pointer;transform: scale(1.2);
+}
+.ins:hover{
+  background-color:#FBAD50;cursor: pointer;transform: scale(1.2);
+}
+.yt:hover{
+  background-color:#EA4335;cursor: pointer;transform: scale(1.2);
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/b7874c4c11.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="product.css">
+
+</head>
+ 
+<body onload="start()">
+<!-- header -->
+<section>
+  <div id="linetop">
+    <h1></h1><a href="#">CUPID'S CROCHET SHOP</a></h1>
+
+    <p><i>BRING LOVE TO LOVER</i></p>
+   </div>
+  <div id ="header">
+   
+<!-- menu -->
+      <div class="task_header">
+              <a href="index.html"><img  class="img_head" src="././imglogo/logoTam.png" alt="logo">
+              </a>
+            
+            <div class="menu">
+              <ul id="nav">
+                <li class = "listhead"><a href="">DESIGN 
+                <li class = "listhead"><a href="">HANDMADE 
+                <li class = "listhead"><a href="product.html">PRODUCT
+                <li class="list_tools">
+                      <a class="tools" href="">
+                        CROCHET TOOLS 
+                        
+                      </a>
+                  <ul class="subnav">
+                      <li><a href="">Product 1</a></li>
+                      <li><a href="">Product 2</a></li>
+                      <li><a href="">Product 3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+      </div>      
+<!-- icon head -->
+      <div class="header_right">
+                <form class="icon_search" >
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+        
+                <div class="icon_head">
+                  <a href="cart.html">
+                    <i  class="fa-solid fa-cart-shopping iconhead " id="anhien"></i>
+                  </a>
+                  <i  class="fa-solid fa-heart iconhead"></i>
+                  <i  class="fa-solid fa-user iconhead"></i>
+                  <i  class="fa-solid fa-bell iconhead"></i>
+                </div>
+<!-- dang nhap -->
+                <div id = "acount">
+                    <a class="dangnhap" href="register.html">Register</a><a class="dangky" href="login.html">Login</a>
+                </div>
+      </div> 
+      <div class="clear"></div>
+  </div>
+  
+</div>
+</section> 
+ <!--slide  -->
+<div class="slide" >
+      <div class="list">
+       <div class="item">
+        <img id="img" src="././imgslide/1.png" alt="">
+       </div>
+       <button id="back" onclick="back()"></button>
+       <button id="next" onclick="next()"></button>
+      </div>
+      
+        <ul class="dot">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+</div>
+
+  <!-- end slide -->
+  <!-- product 1 -->
+<div class="products" > 
+    <div class="title">
+      <div>
+    
+      </div>
+      <h1>WOOL TEDDY</h1>
+      <div>
+    
+      </div>
+      
+    </div>
+    <div class="top-product">
+        <div class="sp">
+          <div class="container">
+            <img src="././imgproduct/10.jpg" alt="" class="image">
+            <div class="middle">
+              <div class="text-detal"><a href="detal.html">Detal</a></div>
+            </div>
+          </div>
+         
+          <div class="text">
+            <div class="name">dinoursor teddy</div>
+            <div class="price">500.000</div>
+            <div class="btn-product"  onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+          </div>
+        </div>
+
+        <div class="sp">
+            <div class="container">
+              <img src="././imgproduct/11.jpg" alt="" class="image">
+              <div class="middle">
+                <div class="text-detal"><a href="detal.html">Detal</a></div>
+              </div>
+            </div>
+          <div class="text">
+            <div class="name">giraffe teddy</div>
+            <div class="price">500.000</div>
+            <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+          </div>
+        
+        </div>
+        <div class="sp">
+            <div class="container">
+              <img src="././imgproduct/12.jpg" alt="" class="image">
+              <div class="middle">
+                <div class="text-detal"><a href="detal.html">Detal</a></div>
+              </div>
+            </div>
+          <div class="text">
+            <div class="name">ray teddy</div>
+            <div class="price">500.000</div>
+            <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+          </div>
+        
+        </div>
+        <div class="sp">
+            <div class="container">
+              <img src="././imgproduct/9.jpg" alt="" class="image">
+              <div class="middle">
+                <div class="text-detal"><a href="detal.html">Detal</a></div>
+              </div>
+            </div>
+          <div class="text">
+            <div class="name">chicken teddy</div>
+            <div class="price">500.000</div>
+            <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+          </div>
+        </div>
+  </div>
+
+  <div class="bot-product">
+    <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/10.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+      <div class="text">
+        <div class="name">dinoursor teddy</div>
+        <div class="price">500.000</div>
+        <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+      </div>
+     
+    </div>
+    <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/11.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+      <div class="text">
+        <div class="name">giraffe teddy</div>
+        <div class="price">500.000</div>
+        <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+      </div>
+     
+    </div>
+    <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/12.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+      <div class="text">
+        <div class="name">ray teddy</div>
+        <div class="price">500.000</div>
+        <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+      </div>
+     
+    </div>
+    <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/9.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+      <div class="text">
+        <div class="name">Chicken teddy</div>
+        <div class="price">500.000</div>
+        <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end product 1 -->
+<!-- product 2 -->
+<div class="products" > 
+  <div class="title2">
+    <div>
+  
+    </div>
+    <h1>ROLL WOOL</h1>
+    <div>
+  
+    </div>
+    
+  </div>
+  <div class="top-product">
+      <div class="sp">
+          <div class="container">
+            <img src="././imgproduct/tron1.jpg" alt="" class="image">
+            <div class="middle">
+              <div class="text-detal"><a href="detal.html">Detal</a></div>
+            </div>
+          </div>
+        <div class="text">
+          <div class="name">ROLL WOOL #1</div>
+          <div class="price">500.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      </div>
+
+      <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/tron2.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+        <div class="text">
+          <div class="name">ROLL WOOL #2</div>
+          <div class="price">500.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      
+      </div>
+      <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/tron3.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+        <div class="text">
+          <div class="name">ROLL WOOL #3</div>
+          <div class="price">500.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      
+      </div>
+      <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/tron4.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+        <div class="text">
+          <div class="name">ROLL WOOL #4</div>
+          <div class="price">500.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      </div>
+</div>
+
+<div class="bot-product">
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/tron5.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">ROLL WOOL #5</div>
+      <div class="price">500.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+   
+  </div>
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/tron1.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">ROLL WOOL #6</div>
+      <div class="price">500.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+   
+  </div>
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/tron2.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">ROLL WOOL #7</div>
+      <div class="price">500.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+   
+  </div>
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/tron3.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">ROLL WOOL #8</div>
+      <div class="price">500.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- end product 2 -->
+<!--  product 3 -->
+<div class="title2">
+  <div>
+
+  </div>
+  <h1>Long wool</h1>
+  <div>
+
+  </div>
+
+</div>
+<div class="products" > 
+  <div class="top-product">
+      <div class="sp">
+          <div class="container">
+            <img src="././imgproduct/len1.jpg" alt="" class="image">
+            <div class="middle">
+              <div class="text-detal"><a href="detal.html">Detal</a></div>
+            </div>
+          </div>
+        <div class="text">
+          <div class="name">Long wool #1</div>
+          <div class="price">500.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      </div>
+
+      <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/len2.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+        <div class="text">
+          <div class="name">Long wool #2</div>
+          <div class="price">50.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      
+      </div>
+      <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/len3.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+        <div class="text">
+          <div class="name">Long wool #3</div>
+          <div class="price">50.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      
+      </div>
+      <div class="sp">
+        <div class="container">
+          <img src="././imgproduct/len4.jpg" alt="" class="image">
+          <div class="middle">
+            <div class="text-detal"><a href="detal.html">Detal</a></div>
+          </div>
+        </div>
+        <div class="text">
+          <div class="name">Long wool #4</div>
+          <div class="price">50.000</div>
+          <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+        </div>
+      </div>
+</div>
+
+<div class="bot-product">
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/len5.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">Long wool #5</div>
+      <div class="price">50.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+   
+  </div>
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/len6.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">Long wool #6</div>
+      <div class="price">50.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+   
+  </div>
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/len7.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">Long wool #7</div>
+      <div class="price">500.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+   
+  </div>
+  <div class="sp">
+    <div class="container">
+      <img src="././imgproduct/len8.jpg" alt="" class="image">
+      <div class="middle">
+        <div class="text-detal"><a href="detal.html">Detal</a></div>
+      </div>
+    </div>
+    <div class="text">
+      <div class="name">Long wool #8</div>
+      <div class="price">50.000</div>
+      <div class="btn-product" onclick="addToCart(this)"><button><a href="cart.html">đặt hàng</a></button></div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- end product 3 -->
+
+<!-- footer -->
+<footer>
+  <div class="tong">
+    <div class="box1">
+      <div class="info">
+        <h5><a href="">Information</a></h5>
+        <ul class="icon_footer">
+          <li ><span> <i class="fa-solid fa-map" class="icon_footer1"></i>  TP.DĨ AN SÀI GÒN</span> </li>
+          <li > <a href=""><i class="fa-regular fa-envelope" class="icon_footer1"></i> thanhtam1532@gmail.com</a></li>
+          <li > <span><i class="fa-solid fa-headset" class="icon_footer1"></i> +84901***164</span> </li>
+        </ul>
+      </div>
+ 
+ 
+      <div class="footer_pr">
+        <h5>PRODUCTS</h5>
+        <ul class="list_rightfoot">
+          <li> <i class="fa-solid fa-arrow-right"></i> WOOL TEDDY</li>
+          <li> <i class="fa-solid fa-arrow-right"></i> LONG WOOL</li>
+        </ul>
+      </div>
+
+      <div class="footer_pr">
+        <h5>PRODUCTS</h5>
+        <ul class="list_rightfoot">
+          <li> <i class="fa-solid fa-arrow-right"></i> WOOL TEDDY</li>
+          <li> <i class="fa-solid fa-arrow-right"></i> LONG WOOL</li>
+        </ul>
+      </div>
+
+      <div class="footer_pr">
+        <h5>PRODUCTS</h5>
+        <ul class="list_rightfoot">
+          <li> <i class="fa-solid fa-arrow-right"></i> WOOL TEDDY</li>
+          <li> <i class="fa-solid fa-arrow-right"></i> LONG WOOL</li>
+        </ul>
+      </div>
+ 
+      <div class="contact">
+        <p>Send us your email</p>
+        <form class="contact-type" action="" >
+          <input type="text" placeholder="Your email..."><i class="fa fa-search"></i>
+        </form>
+        <span>Follow Us</span>
+        <hr>
+        <div class="social">
+              <i class="fa-brands fa-x-twitter tw"></i>
+              <i class="fa-brands fa-facebook fb"></i>
+              <i class="fa-brands fa-instagram ins"></i>
+              <i class="fa-brands fa-youtube yt"></i>
+        </div>
+      </div>
+  </div> 
+</div>
+</footer>
+</body>
+<script src="products.js"></script>
+</html>
